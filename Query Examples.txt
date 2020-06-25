@@ -1,0 +1,12 @@
+https://localhost:5001/api/owner?orderBy=name,dateOfBirth desc
+https://localhost:5001/api/owner?orderBy=name desc,dateOfBirth
+https://localhost:5001/api/owner?orderBy=age
+https://localhost:5001/api/owner?orderBy= 
+https://localhost:5001/api/owner?orderBy=name desc&dateOfBirth
+https://localhost:5001/api/owner?pageNumber=1&pageSize=5&orderBy=dateOfBirth asc&minYearOfBirth=1960&maxYearOfBirth=1980&name=Anna
+https://localhost:5001/api/owner?fields=name,dateOfBirth
+https://localhost:5001/api/owner?fields=name,dateOfBirth
+https://localhost:5001/api/owner?fields=name,dateOfBirth&pageSize=2&pageNumber=1&orderBy=name asc,dateOfBirth desc&maxYearOfBirth=1970
+
+
+
