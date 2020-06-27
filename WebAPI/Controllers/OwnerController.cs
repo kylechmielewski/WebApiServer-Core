@@ -38,7 +38,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet]
-        [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
+        //[ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetOwners([FromQuery] OwnerParameters ownerParameters)
         {
             if (!ownerParameters.ValidYearRange)
@@ -81,16 +81,16 @@ namespace WebAPI.Controllers
             return Ok(CreateLinksForOwners(ownersWrapper));
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetAllOwners()
-        {
-            var owners = await _repoWrapper.Owner.GetAllOwnersAsync();
-            _logger.LogInfo($"Returned all owners from database.");
+        //[HttpGet]
+        //public async Task<IActionResult> GetAllOwners()
+        //{
+        //    var owners = await _repoWrapper.Owner.GetAllOwnersAsync();
+        //    _logger.LogInfo($"Returned all owners from database.");
             
-            var ownersResult = _mapper.Map<IEnumerable<OwnerDto>>(owners);
+        //    var ownersResult = _mapper.Map<IEnumerable<OwnerDto>>(owners);
             
-            return Ok(owners);
-        }
+        //    return Ok(ownersResult);
+        //}
 
         [HttpGet("{id}", Name = "OwnerById")]
         public async Task<IActionResult> GetOwnerById(Guid id, [FromQuery] string fields)
