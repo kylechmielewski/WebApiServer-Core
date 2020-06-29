@@ -77,7 +77,7 @@ namespace Entities.Helpers
                 shapedObject.Entity.TryAdd(property.Name, objectPropertyValue);
             }
 
-            var objectProperty = entity.GetType().GetProperty("Id");
+            var objectProperty = entity.GetType().GetProperty("OwnerId");
             shapedObject.Id = (Guid)objectProperty.GetValue(entity);
 
             return shapedObject;

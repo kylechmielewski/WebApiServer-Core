@@ -72,7 +72,7 @@ namespace Entities.Helpers
         {
             writer.WriteStartElement(key);
 
-            if (value.GetType() == typeof(List<Link>))
+            if (value != null && value.GetType() == typeof(List<Link>))
             {
                 foreach (var val in value as List<Link>)
                 {
@@ -85,7 +85,10 @@ namespace Entities.Helpers
             }
             else
             {
-                writer.WriteString(value.ToString());
+                if (value == null)
+                    writer.WriteString(string.Empty);
+                else
+                    writer.WriteString(value.ToString());
             }
 
             writer.WriteEndElement();

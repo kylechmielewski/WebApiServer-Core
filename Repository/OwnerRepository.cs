@@ -40,7 +40,7 @@ namespace Repository
             SearchByName(ref owners, ownerParameters.Name);
 
             var sortedOwners = _sortHelper.ApplySort(owners, ownerParameters.OrderBy);
-            var shapedOwners = _dataShaper.ShapeData(owners, ownerParameters.Fields);
+            var shapedOwners = _dataShaper.ShapeData(sortedOwners, ownerParameters.Fields);
 
             return PagedList<ShapedEntity>.ToPagedList(shapedOwners.AsQueryable(), ownerParameters.PageNumber, ownerParameters.PageSize);
         }
