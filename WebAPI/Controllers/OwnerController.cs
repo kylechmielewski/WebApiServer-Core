@@ -38,7 +38,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet]
-        //[ServiceFilter(typeof(ValidateMediaTypeAttribute))]
+        [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetOwners([FromQuery] OwnerParameters ownerParameters)
         {
             if (!ownerParameters.ValidYearRange)
@@ -86,9 +86,9 @@ namespace WebAPI.Controllers
         //{
         //    var owners = await _repoWrapper.Owner.GetAllOwnersAsync();
         //    _logger.LogInfo($"Returned all owners from database.");
-            
+
         //    var ownersResult = _mapper.Map<IEnumerable<OwnerDto>>(owners);
-            
+
         //    return Ok(ownersResult);
         //}
 
