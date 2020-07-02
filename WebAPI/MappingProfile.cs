@@ -14,8 +14,11 @@ namespace WebAPI
         {
             //Owner
             CreateMap<Owner, OwnerDto>();
+            CreateMap<Owner, OwnerWithReportsDto>();
             CreateMap<OwnerForCreationDto, Owner>();
             CreateMap<OwnerForUpdateDto, Owner>();
+            //CreateMap<OwnerWithReportsDto, Owner>();
+            
 
             //Report
             CreateMap<Report, ReportDto>();

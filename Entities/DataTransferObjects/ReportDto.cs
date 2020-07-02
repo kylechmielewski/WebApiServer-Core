@@ -7,7 +7,7 @@ namespace Entities.DataTransferObjects
 {
     public class ReportDto
     {
-        public Guid Id { get; set; }
+        public Guid ReportId { get; set; }
 
         public DateTime DateCreated { get; set; }
 

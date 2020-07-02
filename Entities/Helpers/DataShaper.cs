@@ -74,7 +74,7 @@ namespace Entities.Helpers
             foreach (var property in requiredProperties)
             {
                 var objectPropertyValue = property.GetValue(entity);
-                shapedObject.Entity.TryAdd(property.Name, objectPropertyValue);
+                shapedObject.Entity.TryAdd(property.Name.ToLowerCamelCase(), objectPropertyValue);
             }
 
             var objectProperty = entity.GetType().GetProperty("OwnerId");

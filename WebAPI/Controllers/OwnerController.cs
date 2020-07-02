@@ -47,7 +47,7 @@ namespace WebAPI.Controllers
             }
 
             var owners = await _repoWrapper.Owner.GetOwnersAsync(ownerParameters);
-
+            
             var metadata = new
             {
                 owners.TotalCount,
@@ -63,7 +63,7 @@ namespace WebAPI.Controllers
             _logger.LogInfo($"Returned {owners.Count()} owners from database.");
 
             var shapedOwners = owners.Select(o => o.Entity).ToList();
-            var mediaType = (MediaTypeHeaderValue)HttpContext.Items["AcceptHeaderMediaType"];
+            var mediaType = (MediaTypeHeaderValue)HttpContext.Items["ContentTypeHeaderMediaType"];
 
             if (!mediaType.SubTypeWithoutSuffix.EndsWith("hateoas", StringComparison.InvariantCultureIgnoreCase))
             {
@@ -103,7 +103,7 @@ namespace WebAPI.Controllers
                 return NotFound();
             }
 
-            var mediaType = (MediaTypeHeaderValue)HttpContext.Items["AcceptHeaderMediaType"];
+            var mediaType = (MediaTypeHeaderValue)HttpContext.Items["ContentTypeHeaderMediaType"];
 
             if (!mediaType.SubTypeWithoutSuffix.EndsWith("hateoas", StringComparison.InvariantCultureIgnoreCase))
             {

@@ -393,3 +393,4 @@ WebAPI.Controllers.OwnerController.GetAllOwners (WebAPI)
 2020-06-29 16:29:28.1425 INFO Returned 4 owners from database.
 2020-06-29 16:29:42.0220 INFO Returned 4 owners from database.
 2020-06-29 16:30:20.1052 INFO Returned 4 owners from database.
+2020-06-29 16:36:05.8437 INFO Returned 4 owners from database.

@@ -68,7 +68,7 @@ namespace WebAPI.Controllers
             await _repoWrapper.SaveAsync();
 
             var createdReport = _mapper.Map<ReportDto>(reportEntity);
-            return CreatedAtRoute("ReportById", new { id = createdReport.Id }, createdReport);
+            return CreatedAtRoute("ReportById", new { id = createdReport.ReportId }, createdReport);
         }
 
         [HttpPut("{id}")]

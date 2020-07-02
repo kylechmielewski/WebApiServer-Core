@@ -12,15 +12,15 @@ namespace WebAPI.Filters
     {
         public void OnActionExecuting(ActionExecutingContext context)
         {
-            var acceptHeaderPresent = context.HttpContext.Request.Headers.ContainsKey("Accept");
+            var acceptHeaderPresent = context.HttpContext.Request.Headers.ContainsKey("Content-Type");
 
             if (!acceptHeaderPresent)
             {
-                context.Result = new BadRequestObjectResult($"Accept header is missing");
+                context.Result = new BadRequestObjectResult($"Content-Type header is missing");
                 return;
             }
 
-            var mediaType = context.HttpContext.Request.Headers["Accept"].FirstOrDefault();
+            var mediaType = context.HttpContext.Request.Headers["Content-Type"].FirstOrDefault();
 
             if (!MediaTypeHeaderValue.TryParse(mediaType, out MediaTypeHeaderValue outMediaType))
             {
@@ -28,7 +28,7 @@ namespace WebAPI.Filters
                 return;
             }
 
-            context.HttpContext.Items.Add("AcceptHeaderMediaType", outMediaType);
+            context.HttpContext.Items.Add("ContentTypeHeaderMediaType", outMediaType);
         }
 
         public void OnActionExecuted(ActionExecutedContext context)

@@ -1,0 +1,106 @@
+2020-07-02 11:03:11.6980 INFO Returned 4 owners from database.
+2020-07-02 12:02:10.5872 INFO Returned 4 owners from database.
+2020-07-02 12:41:25.1788 INFO Returned 4 owners from database.
+2020-07-02 12:42:07.5014 INFO Returned 4 owners from database.
+2020-07-02 13:41:27.1063 INFO Returned 4 owners from database.
+2020-07-02 13:44:34.5248 INFO Returned 4 owners from database.
+2020-07-02 13:45:20.8810 INFO Returned 4 owners from database.
+2020-07-02 13:45:42.4823 INFO Returned 4 owners from database.
+2020-07-02 13:47:53.8993 INFO Returned 4 owners from database.
+2020-07-02 13:48:40.8412 INFO Returned 4 owners from database.
+2020-07-02 13:48:51.0092 INFO Returned 4 owners from database.
+2020-07-02 13:48:55.4440 INFO Returned 4 owners from database.
+2020-07-02 13:55:45.4419 INFO Returned 4 owners from database.
+2020-07-02 13:55:58.2217 INFO Returned 4 owners from database.
+2020-07-02 13:56:38.4142 INFO Returned 4 owners from database.
+2020-07-02 13:57:03.4087 INFO Returned 4 owners from database.
+2020-07-02 13:57:57.2126 INFO Returned 4 owners from database.
+2020-07-02 14:00:29.6221 INFO Returned 4 owners from database.
+2020-07-02 14:05:07.5094 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 14:05:08.6750 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Owner -> OwnerWithReportsDto
+Entities.Models.Owner -> Entities.DataTransferObjects.OwnerWithReportsDto
+   at lambda_method(Closure , Owner , OwnerWithReportsDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at WebAPI.Controllers.OwnerController.GetOwnerWithDetails(Guid id) in C:\development\WebAPI\WebAPI\Controllers\OwnerController.cs:line 132
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at WebAPI.CustomExceptionMIddleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\development\WebAPI\WebAPI\CustomExceptionMIddleware\ExceptionMiddleware.cs:line 27
+2020-07-02 14:05:49.0383 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 14:05:50.1108 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Owner -> OwnerWithReportsDto
+Entities.Models.Owner -> Entities.DataTransferObjects.OwnerWithReportsDto
+   at lambda_method(Closure , Owner , OwnerWithReportsDto , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at WebAPI.Controllers.OwnerController.GetOwnerWithDetails(Guid id) in C:\development\WebAPI\WebAPI\Controllers\OwnerController.cs:line 132
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at WebAPI.CustomExceptionMIddleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\development\WebAPI\WebAPI\CustomExceptionMIddleware\ExceptionMiddleware.cs:line 27
+2020-07-02 14:08:58.0925 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 14:11:48.6911 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 14:12:00.2633 INFO Returned 4 owners from database.
+2020-07-02 14:12:03.9129 INFO Returned 4 owners from database.
+2020-07-02 14:12:11.0025 INFO Returned 4 owners from database.
+2020-07-02 14:12:28.2360 INFO Returned 4 owners from database.
+2020-07-02 14:12:35.0937 INFO Returned 4 owners from database.
+2020-07-02 14:12:41.5453 INFO Returned 4 owners from database.
+2020-07-02 14:12:44.2299 INFO Returned 4 owners from database.
+2020-07-02 14:12:46.1474 INFO Returned 4 owners from database.
+2020-07-02 14:12:48.0530 INFO Returned 4 owners from database.
+2020-07-02 14:15:40.0615 INFO Returned 4 owners from database.
+2020-07-02 14:17:00.3910 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 14:17:05.1193 INFO Returned 4 owners from database.
+2020-07-02 14:17:45.5163 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 14:18:49.2534 INFO Returned 4 owners from database.
+2020-07-02 14:19:03.6850 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 14:20:33.7899 INFO Returned 4 owners from database.
+2020-07-02 14:20:39.0850 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 14:20:49.7202 INFO Returned 4 owners from database.
+2020-07-02 14:21:28.7982 INFO Returned owner with details for id: 24fd81f8-d58a-4bcc-9f35-dc6cd5641906
+2020-07-02 14:21:42.2506 INFO Returned 4 owners from database.
+2020-07-02 14:21:46.3999 INFO Returned owner with details for id: f98e4d74-0f68-4aac-89fd-047f1aaca6b6
+2020-07-02 14:21:49.6386 INFO Returned 4 owners from database.
+2020-07-02 14:21:53.9308 INFO Returned owner with details for id: a3c1880c-674c-4d18-8f91-5d3608a2c937
+2020-07-02 14:27:36.7840 INFO Returned 4 owners from database.
+2020-07-02 14:27:38.7727 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 14:28:56.2525 INFO Returned 4 owners from database.
+2020-07-02 14:28:57.3390 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 14:29:36.9561 INFO Returned 4 owners from database.
+2020-07-02 14:29:52.1404 INFO Returned 4 owners from database.
+2020-07-02 14:30:02.0577 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 14:30:41.6579 INFO Returned 4 owners from database.
+2020-07-02 15:07:23.0277 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 15:07:42.4869 INFO Returned 4 owners from database.
+2020-07-02 15:07:48.1572 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 15:07:50.8546 INFO Returned 4 owners from database.
+2020-07-02 15:08:14.1119 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 15:10:59.1707 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 15:11:07.8160 INFO Returned 4 owners from database.
+2020-07-02 15:11:23.3475 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 15:22:11.0147 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-07-02 15:22:34.9864 INFO Returned 4 owners from database.
+2020-07-02 15:25:26.9114 INFO Returned 4 owners from database.
+2020-07-02 15:25:29.5825 INFO Returned 4 owners from database.
+2020-07-02 15:32:40.3795 INFO Returned 4 owners from database.
+2020-07-02 15:34:18.4471 INFO Returned 4 owners from database.
+2020-07-02 15:53:26.3198 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
