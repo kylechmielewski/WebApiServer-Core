@@ -3,3 +3,15 @@
 ################################################################################
 
 /.vs
+
+/Contracts/obj
+/Contracts/bin
+
+/Entities/obj
+/Entities/bin
+
+/LoggerService/obj
+/LoggerService/bin
+
+/Repository/obj
+/Repository/bin
