@@ -15,3 +15,6 @@
 
 /Repository/obj
 /Repository/bin
+
+/WebAPI/bin
+/WebAPI/obj
