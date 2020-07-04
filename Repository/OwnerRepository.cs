@@ -55,14 +55,12 @@ namespace Repository
         public async Task<Owner> GetOwnerByIdAsync(Guid ownerId)
         {
             return await this.FindByCondition(o => o.OwnerId.Equals(ownerId))
-                .DefaultIfEmpty(new Owner())
                 .FirstOrDefaultAsync();
         }
 
         public async Task<ShapedEntity> GetOwnerByIdAsync(Guid ownerId, string fields)
         {
             var owner = await this.FindByCondition(o => o.OwnerId.Equals(ownerId))
-                .DefaultIfEmpty(new Owner())
                 .FirstOrDefaultAsync();
 
             return _dataShaper.ShapeData(owner, fields);

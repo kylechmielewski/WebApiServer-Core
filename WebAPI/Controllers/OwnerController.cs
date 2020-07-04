@@ -93,6 +93,7 @@ namespace WebAPI.Controllers
         //}
 
         [HttpGet("{id}", Name = "OwnerById")]
+        [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetOwnerById(Guid id, [FromQuery] string fields)
         {
             var owner = await _repoWrapper.Owner.GetOwnerByIdAsync(id, fields);
