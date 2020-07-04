@@ -1,38 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\development\\WebAPI\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\development\\WebAPI\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\development\\WebAPI\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\development\\WebAPI\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\chmielewskik\\.nuget\\packages\\",
-        "outputPath": "C:\\development\\WebAPI\\Contracts\\obj\\",
+        "projectPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\Kyle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\chmielewskik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Kyle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://eqssp-tfs01/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\development\\WebAPI\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\development\\WebAPI\\Entities\\Entities.csproj"
+              "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Entities\\Entities.csproj"
               }
             }
           }
@@ -55,43 +55,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\development\\WebAPI\\Entities\\Entities.csproj": {
+    "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\development\\WebAPI\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\development\\WebAPI\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\chmielewskik\\.nuget\\packages\\",
-        "outputPath": "C:\\development\\WebAPI\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Kyle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\chmielewskik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Kyle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://eqssp-tfs01/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -131,50 +125,44 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\development\\WebAPI\\LoggerService\\LoggerService.csproj": {
+    "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\LoggerService\\LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\development\\WebAPI\\LoggerService\\LoggerService.csproj",
+        "projectUniqueName": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\LoggerService\\LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "C:\\development\\WebAPI\\LoggerService\\LoggerService.csproj",
-        "packagesPath": "C:\\Users\\chmielewskik\\.nuget\\packages\\",
-        "outputPath": "C:\\development\\WebAPI\\LoggerService\\obj\\",
+        "projectPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\LoggerService\\LoggerService.csproj",
+        "packagesPath": "C:\\Users\\Kyle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\LoggerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\chmielewskik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Kyle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://eqssp-tfs01/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\development\\WebAPI\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\development\\WebAPI\\Contracts\\Contracts.csproj"
+              "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Contracts\\Contracts.csproj"
               }
             }
           }
@@ -203,53 +191,47 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\development\\WebAPI\\Repository\\Repository.csproj": {
+    "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\development\\WebAPI\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\development\\WebAPI\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\chmielewskik\\.nuget\\packages\\",
-        "outputPath": "C:\\development\\WebAPI\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Kyle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\chmielewskik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Kyle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://eqssp-tfs01/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\development\\WebAPI\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\development\\WebAPI\\Contracts\\Contracts.csproj"
+              "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Contracts\\Contracts.csproj"
               },
-              "C:\\development\\WebAPI\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\development\\WebAPI\\Entities\\Entities.csproj"
+              "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Entities\\Entities.csproj"
               }
             }
           }
@@ -278,53 +260,47 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\development\\WebAPI\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\development\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\development\\WebAPI\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\chmielewskik\\.nuget\\packages\\",
-        "outputPath": "C:\\development\\WebAPI\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Kyle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\chmielewskik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Kyle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://eqssp-tfs01/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\development\\WebAPI\\LoggerService\\LoggerService.csproj": {
-                "projectPath": "C:\\development\\WebAPI\\LoggerService\\LoggerService.csproj"
+              "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\LoggerService\\LoggerService.csproj": {
+                "projectPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\LoggerService\\LoggerService.csproj"
               },
-              "C:\\development\\WebAPI\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\development\\WebAPI\\Repository\\Repository.csproj"
+              "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Kyle\\source\\repos\\CodeMaze-WebAPI\\Repository\\Repository.csproj"
               }
             }
           }
@@ -367,12 +343,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -381,7 +351,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
